@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+}
+a:link,a:visited{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+/* ========================NAvbar Section============================== */
+.topSection{
+    background-color:#fcdb00 ;
+    font-size: 16px;
+}
+
+.topSection .header .nav-item.active{
+    border-bottom: 2px solid #000;
+}
+
+/* ========================HeroImg Section============================== */
+.heroImg{
+    background-color:#fcdb00 ;
+    color:#000;
+}
+.heroImg .heroImg-icon a i{
+    font-size: 40px;
+    color: #000;
+}
+
+/* ========================feature Section============================== */
+
+.feature .iconAndInfo i{
+    font-size: 45px;
+}
+
+/* ========================footer Section============================== */
+.footerSec{
+    background-color: #000;
+}
+.footerSec .contactInfo li a{
+	color:#fff;
+	text-transform: capitalize;
+}
